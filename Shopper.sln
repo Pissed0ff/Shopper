@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopper", "Shopper\Shopper.csproj", "{F0556F42-2C27-4EE0-8C81-3880D310B0FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64B3503F-F3F8-45CB-AC9D-102777950CA2} = {64B3503F-F3F8-45CB-AC9D-102777950CA2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopperLib", "ShopperLib\ShopperLib.csproj", "{64B3503F-F3F8-45CB-AC9D-102777950CA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0556F42-2C27-4EE0-8C81-3880D310B0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0556F42-2C27-4EE0-8C81-3880D310B0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0556F42-2C27-4EE0-8C81-3880D310B0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0556F42-2C27-4EE0-8C81-3880D310B0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B3503F-F3F8-45CB-AC9D-102777950CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B3503F-F3F8-45CB-AC9D-102777950CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B3503F-F3F8-45CB-AC9D-102777950CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B3503F-F3F8-45CB-AC9D-102777950CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD2D4DF4-60FA-411B-8136-F61F655327EC}
+	EndGlobalSection
+EndGlobal
